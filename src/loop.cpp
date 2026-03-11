@@ -23,8 +23,8 @@ void main_loop(void) {
         getline(std::cin, instruction);
         bloc.push_back(instruction);
         if (instruction[0] != '.') {
-            process_remaining_lines(instruction, bloc);
+            bloc = process_remaining_lines(instruction, bloc);
         }
-        main_parser(bloc);
+        general_parser(bloc);
     }
 }

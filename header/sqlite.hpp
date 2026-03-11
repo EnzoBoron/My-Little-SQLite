@@ -16,7 +16,7 @@
     };
 
     void main_loop(void);
-    void main_parser(std::vector<std::string>);
+    void general_parser(std::vector<std::string>);
     
 
 #endif /* SQLITE_HPP */
