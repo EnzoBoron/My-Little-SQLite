@@ -13,3 +13,4 @@ Ce fichier est découpé en pages fixes de 4096 octets regroupant :
 - Nœuds d’index
 - Lignes de tables
 - Et d’autres structures internes
+
