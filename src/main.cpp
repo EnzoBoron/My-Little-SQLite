@@ -3,9 +3,10 @@
 int main(int ac, char**av) {
     file *m_file = new file();
     if (ac == 1) {
-        m_file->name = "test";
+        // temporaire
     } else if (ac == 2) {
         std::cout << av[0] << " " << av[1] << std::endl;
+        // créer ou ouvrir le fichier 
         return 0;
     } else {
         return 84;
