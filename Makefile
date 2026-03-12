@@ -1,6 +1,9 @@
-SRC = 	./src/main.cpp \
-		./src/loop.cpp \
-		./src/parser.cpp
+SRC = 	./src/main.cpp 					\
+		./src/loop.cpp 					\
+		./src/parser.cpp 				\
+		./src/b_tree/add_element.cpp 	\
+		./src/b_tree/display.cpp
+
 CC = g++
 CFLAG = Wall
 EXEC_NAME = sqlite
